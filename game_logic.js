@@ -34,7 +34,7 @@ function boxClicked(e){
       //if playerHasWon fun return true then change the html of class playerText
     playerText.innerHTML=`${currentPlayer} has won!`
      let winning_blocks=playerHasWon();
-     count_chaal=9;
+     count_chaal=10;
     //  console.log(winning_blocks);
     //highlighting winning block
     winning_blocks.map(box=>boxes[box].style.backgroundColor=winnerIndicator)
