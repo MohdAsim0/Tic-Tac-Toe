@@ -47,7 +47,7 @@ h1 {
   align-items: center;
   justify-content: center;
   color: var(--orange);
-  font-size: 120px;
+  font-size: 110px;
   border-right: 2px solid;
   border-bottom: 2px solid;
 }
@@ -78,3 +78,15 @@ button:hover {
     transform: translateY(-2px);
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  h1{
+    font-size: 35px;
+  }
+  #restartBtn{
+    font-size: 15px;
+  }
+  .box{
+    font-size: 90px;
+  }
+}
